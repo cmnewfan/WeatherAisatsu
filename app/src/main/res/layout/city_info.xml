@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="81dp"
+        android:textSize="35dp"
+        android:gravity="center"
+        android:id="@+id/city_pre"
+        android:text="sss" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="27dp"
+        android:text="wendu"
+        android:textSize="20sp"
+        android:layout_toRightOf="@+id/city_pre"
+        android:id="@+id/city_temp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="27dp"
+        android:text="wendu"
+        android:textSize="20sp"
+        android:layout_below="@+id/city_temp"
+        android:layout_toRightOf="@+id/city_pre"
+        android:id="@+id/city_aqi"
+        android:drawableRight="@android:drawable/ic_delete" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="27dp"
+        android:text="wendu"
+        android:textSize="11sp"
+        android:layout_below="@+id/city_aqi"
+        android:layout_toRightOf="@+id/city_pre"
+        android:ellipsize="end"
+        android:id="@+id/city_cold" />
+
+</RelativeLayout>
