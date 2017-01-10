@@ -8,7 +8,7 @@
     <!-- Strings related to Settings -->
 
     <!-- Example General settings -->
-    <string name="pref_header_general">General</string>
+    <string name="pref_header_general">设置</string>
 
     <string name="pref_title_social_recommendations">Enable social recommendations</string>
     <string name="pref_description_social_recommendations">Recommendations for people to contact
@@ -52,7 +52,7 @@
     </string-array>
 
     <string name="pref_title_system_sync_settings">System sync settings</string>
-
+    <string name="delete_city">删除关注城市</string>
     <!-- Example settings for Notifications -->
     <string name="pref_header_notifications">Notifications</string>
 
@@ -64,4 +64,9 @@
     <string name="pref_title_vibrate">Vibrate</string>
     <string name="config_add_city">添加关注城市</string>
     <string name="activity_search">搜索城市</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="configure">Configure</string>
+    <string name="add_widget">Add widget</string>
 </resources>

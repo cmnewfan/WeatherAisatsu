@@ -1,0 +1,49 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.weatheraisatsu.ljl.weatheraisatsu.ConfigFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:id="@+id/config_interval"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="10"
+            android:layout_alignParentRight="true"
+            android:textColor="#0bf31b" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/config_add"
+            android:text="@string/config_interval"
+            android:textSize="20sp"
+            android:gravity="center|left"
+            android:drawableLeft="@drawable/ic_sync_black_24dp"
+            android:layout_toLeftOf="@id/config_interval" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="20sp"
+            android:text="@string/delete_city"
+            android:gravity="center|left"
+            android:layout_below="@id/config_interval"
+            android:drawableLeft="@drawable/ic_info_black_24dp"
+            android:id="@+id/config_city_text" />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/config_city"
+            android:layout_below="@id/config_city_text"></ListView>
+    </RelativeLayout>
+
+</FrameLayout>

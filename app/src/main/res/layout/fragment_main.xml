@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.weatheraisatsu.ljl.weatheraisatsu.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="关注城市"
+            android:textSize="25sp"
+            android:id="@+id/main_text"
+            android:drawableRight="@android:drawable/ic_input_add" />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/main_text"
+            android:id="@+id/main_list_view"></ListView>
+    </RelativeLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

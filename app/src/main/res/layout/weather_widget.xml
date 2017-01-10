@@ -1,15 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="horizontal"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="@dimen/widget_margin"
+    android:id="@+id/widget_layout">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="81dp"
         android:textSize="35dp"
         android:gravity="center"
-        android:id="@+id/city_pre"
+        android:id="@+id/city_pre_widget"
         android:paddingLeft="4dp"
         android:text="sss" />
 
@@ -18,22 +19,20 @@
         android:layout_height="27dp"
         android:text="wendu"
         android:textSize="20sp"
-        android:layout_toRightOf="@+id/city_pre"
+        android:layout_toRightOf="@+id/city_pre_widget"
         android:drawableLeft="@drawable/ic_w_temprature"
         android:paddingLeft="4dp"
-        android:id="@+id/city_temp" />
+        android:id="@+id/city_temp_widget" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="27dp"
         android:text="wendu"
         android:textSize="20sp"
-        android:layout_below="@+id/city_temp"
-        android:layout_toRightOf="@+id/city_pre"
-        android:id="@+id/city_aqi"
+        android:layout_below="@+id/city_temp_widget"
+        android:layout_toRightOf="@+id/city_pre_widget"
+        android:id="@+id/city_aqi_widget"
         android:drawableLeft="@drawable/ic_w_aqi"
-        android:drawableRight="@android:drawable/ic_menu_share"
-        android:paddingRight="4dp"
         android:paddingLeft="4dp" />
 
     <TextView
@@ -41,10 +40,10 @@
         android:layout_height="27dp"
         android:text="wendu"
         android:textSize="11sp"
-        android:layout_below="@+id/city_aqi"
-        android:layout_toRightOf="@+id/city_pre"
+        android:layout_below="@+id/city_aqi_widget"
+        android:layout_toRightOf="@+id/city_pre_widget"
         android:ellipsize="end"
-        android:id="@+id/city_cold"
+        android:id="@+id/city_cold_widget"
         android:drawableLeft="@drawable/ic_w_hint"
         android:paddingLeft="4dp" />
 
