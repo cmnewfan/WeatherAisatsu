@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:background="@drawable/weather_pop_window"
+    android:paddingLeft="4dp"
+    android:paddingRight="4dp"
+    android:scaleX="0.98"
+    android:scaleY="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/popup_weather"
+        android:paddingLeft="4dp"
+        android:gravity="center|left"
+        android:paddingTop="2dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableLeft="@drawable/ic_w_temprature"
+        android:id="@+id/popup_temprature"
+        android:paddingLeft="4dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableLeft="@drawable/ic_w_aqi"
+        android:id="@+id/popup_aqi"
+        android:paddingLeft="4dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableLeft="@drawable/ic_w_hint"
+        android:id="@+id/popup_cold"
+        android:paddingLeft="4dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableLeft="@drawable/ic_w_winddirection"
+        android:id="@+id/popup_winddirection"
+        android:paddingLeft="4dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableLeft="@drawable/ic_w_windforce"
+        android:id="@+id/popup_windforce"
+        android:paddingLeft="4dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableLeft="@drawable/ic_w_high_temprature"
+        android:id="@+id/popup_hightemprature"
+        android:paddingLeft="4dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableLeft="@drawable/ic_w_low_temprature"
+        android:id="@+id/popup_lowtemprature"
+        android:paddingLeft="4dp"
+        android:paddingBottom="2dp" />
+</LinearLayout>
